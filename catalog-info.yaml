@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ford-web-app
-  description: Ford Tanzu Java Web App
+  description: Ford Tanzu Web App
   tags:
     - app-accelerator
     - java
