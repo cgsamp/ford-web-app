@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ford-web-app
+  name: ford-tanzu-web-app
   description: Ford Tanzu Web App
   tags:
     - app-accelerator
@@ -11,7 +11,7 @@ metadata:
     - tanzu
     - ford
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=ford-app'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=ford-tanzu-web-app'
 spec:
   type: service
   lifecycle: experimental
